@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Pairs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Find Pairs that Sum to a Value</h1>
+        <form id="pairForm">
+            <label for="arrayInput">Enter an array of integers separated by commas:</label>
+            <input type="text" id="arrayInput" placeholder="e.g., 1,2,3,4,5" required>
+
+            <label for="sumInput">Enter the sum value:</label>
+            <input type="number" id="sumInput" placeholder="e.g., 10" required>
+
+            <button type="submit">Find Pairs</button>
+        </form>
+
+        <div id="results">
+            <h2>Results:</h2>
+            <p><strong>1) Output all pairs:</strong> <span id="allPairs"></span></p>
+            <p><strong>2) Output unique pairs only once:</strong> <span id="uniquePairs"></span></p>
+            <p><strong>3) Output the same combo pair only once:</strong> <span id="comboPairs"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

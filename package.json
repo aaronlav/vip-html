@@ -1,0 +1,15 @@
+{
+  "name": "vip_html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vip-html"
+  },
+  "author": "aaronlav",
+  "license": "ISC",
+  "description": ""
+}
